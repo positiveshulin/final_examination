@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
     android:orientation="horizontal">
     <TextView
         android:id="@+id/tv_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="22dp"
         android:text="2018/10/23"
-        android:textSize="12sp" />
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
     <RelativeLayout
         android:id="@+id/rl_center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp">
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp">
 
         <TextView
             android:id="@+id/tv_line_top"
             android:layout_width="1dp"
-            android:layout_height="30dp"
+            android:layout_height="8dp"
             android:layout_centerHorizontal="true"
-            android:background="#030303" />
+            android:background="#808080" />
 
         <TextView
             android:id="@+id/tv_dot"
@@ -36,10 +38,10 @@
         <TextView
             android:id="@+id/tv_line_bottom"
             android:layout_width="1dp"
-            android:layout_height="40dp"
+            android:layout_height="70dp"
             android:layout_below="@+id/tv_dot"
             android:layout_centerHorizontal="true"
-            android:background="#030303" />
+            android:background="#808080" />
 
     </RelativeLayout>
 
@@ -47,29 +49,31 @@
         android:id="@+id/rl_left"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp">
+        >
 
         <TextView
             android:id="@+id/tv_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
             android:text="9:25"
-            android:textSize="12sp" />
+            android:textColor="#000000"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/tv_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv_time"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="1dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="15dp"
             android:text="我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛"
+            android:textColor="#808080"
             android:maxLines="2"
             android:ellipsize="end"
-            android:textSize="10sp" />
+            android:textSize="18sp" />
 
     </RelativeLayout>
 

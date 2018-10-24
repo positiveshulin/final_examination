@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:layout_marginTop="10dp"
     tools:context=".WritingActivity">
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_alignBottom="@+id/time"
-        android:adjustViewBounds="false"
-        android:visibility="visible"
-        app:srcCompat="@drawable/red_circle" />
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/back"
+        android:visibility="visible" />
 
     <TextView
         android:id="@+id/time"
@@ -22,13 +23,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="38dp"
+        android:textSize="18sp"
         android:text="2018/10/23 11:23" />
     <EditText
         android:layout_below="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="start"
         android:id="@+id/content"
+        android:background="@null"
+        android:textSize="18sp"
         />
 
 </RelativeLayout>
