@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:text="2018/10/23"
-        android:textColor="#000000"
+        android:textColor="#808080"
         android:textSize="18sp" />
 
     <RelativeLayout
@@ -29,11 +29,11 @@
 
         <TextView
             android:id="@+id/tv_dot"
-            android:layout_width="5dp"
-            android:layout_height="5dp"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
             android:layout_below="@+id/tv_line_top"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/big" />
+            android:background="@drawable/greybig" />
 
         <TextView
             android:id="@+id/tv_line_bottom"
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="9:25"
-            android:textColor="#000000"
+            android:textColor="#808080"
             android:textSize="18sp" />
 
         <TextView
@@ -69,8 +69,8 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="5dp"
             android:layout_marginRight="15dp"
-            android:text="我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛我的眼睛好痛"
-            android:textColor="#808080"
+            android:text="加油"
+            android:textColor="#000000"
             android:maxLines="2"
             android:ellipsize="end"
             android:textSize="18sp" />
